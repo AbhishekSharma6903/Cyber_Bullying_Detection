@@ -1,7 +1,7 @@
 # Cyber_Bullying_Detection
 
 ![image](https://user-images.githubusercontent.com/99632495/236155204-977dc251-78df-42aa-b24a-708d7b710095.png)
-A.  Data Collection
+## A.  Data Collection
 We have used Dataturks’ Tweet Dataset for Cybertroll
 Detection obtained from Kaggle [1] for reaching the
 final results. Because of the seriousness of the issue
@@ -18,7 +18,7 @@ Here is the Detailed Description of the dataset:
 2) Total Instances: 20001
 The dataset has 2 attributes- tweet and label [0 corresponds to No while 1 corresponds to Yes]
 
-B. Data Preprocessing
+## B. Data Preprocessing
 The preprocessing steps were done as follows using
 the nltk library along with regex:
 1) Word Tokenization: A Token is a single entity that
