@@ -56,5 +56,6 @@ has high tf-idf in a document, it has most of the
 times occurred in given documents and must be
 absent in the other documents. So the words must
 be a signature word.
+# Result :
 ![image](https://user-images.githubusercontent.com/99632495/236155593-b2749feb-a694-4f19-950f-c79d23f51bfa.png)
 
