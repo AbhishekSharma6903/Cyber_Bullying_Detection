@@ -32,26 +32,26 @@ which they are removed. Stop words are words
 such as “the”, “a”, “an”, “in”, which are not
 significant and do not affect the meaning of the
 data to be interpreted.
-3) To remove punctuation, we save only the characters that are not punctuation, which can be checked
+3) To remove punctuation, we save only the characters that are not punctuation, which can be checked
 by using string.punctuation .
-4) Stemming: Stemming is a process of linguistic normalization, which reduces words to their
+4) Stemming: Stemming is a process of linguistic normalization, which reduces words to their
 word root word. We stem the tokens using
 nltk.stem.porter.PorterStemmer to get the stemmed
-tokens. For example, connection, connected, connecting word reduce to a common word ”connect”.
+tokens. For example, connection, connected, connecting word reduce to a common word ”connect”.
 5) Digit removal: We also filtered out any numeric
 content as it doesn’t contribute to cyberbullying.
 6) Now the next step was to extract features so that
 it can be used with ML algorithms, for which
 we used TF-IDF Transform using Python’s sklearn
 libary. TF-IDF is a statistical measure to evaluate
-the relevance of a word, which is basically calculated by multiplying the number of times that
+the relevance of a word, which is basically calculated by multiplying the number of times that
 words appeared in the document by the inverse
 document frequency of the word. TF-IDF uses the
 method diminishing the weight (importance) of
 words appeared in many documents in common,
-considered them incapable of discerning the documents, rather than simply counting the frequency
+considered them incapable of discerning the documents, rather than simply counting the frequency
 of words as CountVectorizer does. The outcomematrix consists of each document (row) and each
-word (column) and the importance (weight) computed by tf * idf (values of the matrix). If a word
+word (column) and the importance (weight) computed by tf * idf (values of the matrix). If a word
 has high tf-idf in a document, it has most of the
 times occurred in given documents and must be
 absent in the other documents. So the words must
