@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/99632495/236155204-977dc251-78df-42aa-b24a-708d7b710095.png)
 ## A.  Data Collection
 We have used Dataturks’ Tweet Dataset for Cybertroll
-Detection obtained from Kaggle [1] for reaching the
+Detection obtained from Kaggle for reaching the
 final results. Because of the seriousness of the issue
 we aim to resolve, it was crucial to choose a dataset
 that was complete, reliable, relevant, and to the point.
@@ -11,12 +11,12 @@ While we considered many other datasets as well, many
 of them either had missing attributes, were too low
 in quality, or were found to have irrelevant data after
 manual inspection. Thus, after having tried out of many
-other open sourced datasets, we came down to [1] as it
+other open sourced datasets, we came down to as it
 seemed in line with all the parameters required.
 Here is the Detailed Description of the dataset:
 1) It is a partially manually labelled dataset.
 2) Total Instances: 20001
-The dataset has 2 attributes- tweet and label [0 corresponds to No while 1 corresponds to Yes]
+The dataset has 2 attributes- tweet and label [0 corresponds to No while 1 corresponds to Yes]
 
 ## B. Data Preprocessing
 The preprocessing steps were done as follows using
